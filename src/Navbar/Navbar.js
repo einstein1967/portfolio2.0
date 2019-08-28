@@ -7,7 +7,7 @@ const { onClick } = props;
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <img src={'/logo.JPG'} alt="logo" className="logo"></img>
+        <img src={'../logo.JPG'} alt="logo" className="logo"></img>
         <div>
           <h3 className="navName">Eric Bergan</h3>
           <h2 className="navTitle">Full Stack Developer</h2>

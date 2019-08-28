@@ -6,21 +6,21 @@ import Project from './Project/Project'
 const projects = [
   {
     name: "Burger",
-    imageURL: "/burger.JPG",
+    imageURL: "./burger.JPG",
     description: "Full stack app that adds the user's input (ideally a sandwich) to a MySQL database, allows the user to 'devour' the sandwich, and then delete it",
     runApp: "https://ericjbergan.github.io/burger.github.io/",
     seeCode: "https://github.com/ericjbergan/burger.github.io"
   },
   {
     name: "Nesterly",
-    imageURL: "/nesterly.JPG",
+    imageURL: "nesterly.JPG",
     description: "Full stack app that allows you to keep track of your household goods; functions but is still a work in progress",
     runApp: "https://bootcamp-proj2.herokuapp.com/",
     seeCode: "https://github.com/ericjbergan/bootcamp-project2.github.io"
   },
   {
     name: "Gem Collector",
-    imageURL: "/gems.JPG",
+    imageURL: "./public/gems.JPG",
     description: "A game for improving basic math and memory skills",
     runApp: "https://ericjbergan.github.io/crystal-collector.github.io/",
     seeCode: "https://github.com/ericjbergan/crystal-collector.github.io"
