@@ -22,8 +22,8 @@ const projects = [
     name: "Gem Collector",
     imageURL: "",
     description: "A game for improving basic math and memory skills",
-    runApp: "",
-    seeCode: ""
+    runApp: "https://einstein1967.github.io/crystal-collector.github.io/",
+    seeCode: "https://github.com/einstein1967/crystal-collector.github.io"
   },
 ];
 
