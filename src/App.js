@@ -6,21 +6,21 @@ import Project from './Project/Project'
 const projects = [
   {
     name: "Burger",
-    imageURL: "./burger.JPG",
+    imageURL: "./eatdaburger.JPG",
     description: "Full stack app that adds the user's input (ideally a sandwich) to a MySQL database, allows the user to 'devour' the sandwich, and then delete it",
     runApp: "https://ericjbergan.github.io/burger.github.io/",
     seeCode: "https://github.com/ericjbergan/burger.github.io"
   },
   {
     name: "Nesterly",
-    imageURL: "./nesterly.JPG",
+    imageURL: "./nesterlyimage.JPG",
     description: "Full stack app that allows you to keep track of your household goods; functions but is still a work in progress",
     runApp: "https://bootcamp-proj2.herokuapp.com/",
     seeCode: "https://github.com/ericjbergan/bootcamp-project2.github.io"
   },
   {
     name: "Gem Collector",
-    imageURL: "./gems.JPG",
+    imageURL: "./gemcollector.JPG",
     description: "A game for improving basic math and memory skills",
     runApp: "https://ericjbergan.github.io/crystal-collector.github.io/",
     seeCode: "https://github.com/ericjbergan/crystal-collector.github.io"
@@ -28,32 +28,39 @@ const projects = [
 ];
 
 class App extends Component {
-state = {
- isAboutMe: true
-}
+  state = {
+    isAboutMe: true
+  }
 
-switchAboutMe = () => {
-  //update state
-  console.log('I was clicked');
-  this.setState({
-    isAboutMe: false
-  })
-}
+  switchAboutMe = () => {
+    //update state
+    console.log('I was clicked');
+    this.setState({
+      isAboutMe: false
+    })
+  }
 
   render() {
     return (
       <div className="App container">
-        <Navbar onClick={this.switchAboutMe} 
-          />
+        <Navbar onClick={this.switchAboutMe}
+        />
         <div id="body">
-          {this.state.isAboutMe ? 
-          <div>
-            <h1>Hi, I'm Eric; Full Stack Developer</h1>
-            <h1>from Minneapolis/St. Paul, MN</h1>
-          </div>
-          :
-          <h1>THIS IS WORKING!!!!</h1>
-        }
+          {this.state.isAboutMe ?
+            <div>
+              <h1>Hi, I'm Eric; Full Stack Developer</h1>
+              <h1>from Minneapolis/St. Paul, MN</h1>
+            </div>
+            :
+            <div>
+              <img src="./profile-pic.jpg" alt="pic" className="profile"></img>
+              <h5>After some time in the medical and donation industries, I decided to take on a new challenge. Coding is something that has always been an interest for me so it was logical that my next step should be web development.</h5>
+
+              <h5>I am one month out from completing certification from the University of MN Coding Bootcamp where I have learned React.js, MongoDB, MySQL, and many other programming languages and applications.</h5>
+
+              <h5>I am friendly, open, intelligent and love a good challenge. I’m excited about the prospect of going into a job where I can build web applications that fill a need. I want to continue to learn and grow my coding skills to the point where I can teach and mentor other new full stack developers through projects</h5>
+            </div>
+          }
         </div>
         <div className="row">
           <div className="col-md-4">

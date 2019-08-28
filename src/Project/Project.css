@@ -7,20 +7,24 @@
 }
 
 .projectCard {
-    border: 5px blue solid;
+    border: 5px darkblue solid;
     height: 310px;
     width: 106%;
+    border-radius: 10px;
 }
 
 .projectDesc {
     width: 40%;
     float: right;
+    height: 300px;
+    background-color: #ccf1ff;
 }
 
 button {
     float: right;
     border-radius: 20px;
-    background: lightblue;
+    background: darkblue;
+    color: white;
     font-size: 13px;
     position: absolute;
     bottom: 20px;

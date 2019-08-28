@@ -1,12 +1,23 @@
 .navName,
 .navTitle {
-    color: blue;
+    color: #262b7d;
     text-align: left;
     margin-left: 20px;
 }
 
 .logo {
     height: 80px;
+}
+
+.profile {
+    height: 250px;
+    float: left;
+    margin-left: 30px;
+}
+
+h5 {
+    text-align: left;
+    margin-left: 30px;
 }
 
 h3 {
@@ -33,5 +44,7 @@ h2 {
     position: absolute;
     bottom: 15px;
     right: 50px;
+    font-size: 20px;
+    font-weight: bold;
 }
 

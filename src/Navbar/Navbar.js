@@ -18,13 +18,13 @@ const { onClick } = props;
             <a className="nav-link" onClick={() => onClick()}>About Me</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="https://github.com/einstein1967">Github</a>
+            <a className="nav-link" href="https://github.com/ericjbergan">Github</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="https://www.linkedin.com/in/eric-bergan/">LinkedIn</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href = "mailto: bootcamp.ejb@gmail.com">Contact</a>
+            <a className="nav-link" href = "mailto: ericjbergan@gmail.com">Contact</a>
           </li>
           </ul>
         </div>
