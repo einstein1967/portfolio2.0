@@ -13,14 +13,14 @@ const projects = [
   },
   {
     name: "Nesterly",
-    imageURL: "nesterly.JPG",
+    imageURL: "./nesterly.JPG",
     description: "Full stack app that allows you to keep track of your household goods; functions but is still a work in progress",
     runApp: "https://bootcamp-proj2.herokuapp.com/",
     seeCode: "https://github.com/ericjbergan/bootcamp-project2.github.io"
   },
   {
     name: "Gem Collector",
-    imageURL: "./public/gems.JPG",
+    imageURL: "./gems.JPG",
     description: "A game for improving basic math and memory skills",
     runApp: "https://ericjbergan.github.io/crystal-collector.github.io/",
     seeCode: "https://github.com/ericjbergan/crystal-collector.github.io"
