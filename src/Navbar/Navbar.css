@@ -15,10 +15,10 @@
 }
 
 .links {
-    margin: auto;
     cursor: pointer;
+    position: absolute;
+    bottom: 8.5px;
+    right: 50px;
+    margin-left: 10px;
 }
 
-.about {
-    cursor: pointer;
-}

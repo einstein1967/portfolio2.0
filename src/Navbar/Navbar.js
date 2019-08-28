@@ -5,10 +5,10 @@ const navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <img src={'/logo.jpg'} alt="logo"></img>
+        <img src={'./images/logo.jpg'} alt="logo"></img>
         <div>
-          <p className="navName">Eric Bergan</p>
-          <p className="navTitle">Full Stack Developer</p>
+          <h3 className="navName">Eric Bergan</h3>
+          <h2 className="navTitle">Full Stack Developer</h2>
         </div>
         <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav links">

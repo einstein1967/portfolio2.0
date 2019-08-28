@@ -1,0 +1,24 @@
+.projectImg {
+    width: 60%;
+    float: left;
+    border: 1px grey solid;
+    height: 300px;
+}
+
+.projectDesc {
+    width: 40%;
+    float: right;
+}
+
+button {
+    float: right;
+    border-radius: 20px;
+    background: lightblue;
+    font-size: 13px;
+    position: absolute;
+    bottom: 0;
+}
+
+.runApp {
+    right: 0;
+}
