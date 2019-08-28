@@ -6,21 +6,21 @@ import Project from './Project/Project'
 const projects = [
   {
     name: "Burger",
-    imageURL: "./eatdaburger.JPG",
+    imageURL: "./eatdaburger.jpg",
     description: "Full stack app that adds the user's input (ideally a sandwich) to a MySQL database, allows the user to 'devour' the sandwich, and then delete it",
     runApp: "https://ericjbergan.github.io/burger.github.io/",
     seeCode: "https://github.com/ericjbergan/burger.github.io"
   },
   {
     name: "Nesterly",
-    imageURL: "./nesterlyimage.JPG",
+    imageURL: "./nesterlyimage.jpg",
     description: "Full stack app that allows you to keep track of your household goods; functions but is still a work in progress",
     runApp: "https://bootcamp-proj2.herokuapp.com/",
     seeCode: "https://github.com/ericjbergan/bootcamp-project2.github.io"
   },
   {
     name: "Gem Collector",
-    imageURL: "./gemcollector.JPG",
+    imageURL: "./gemcollector.jpg",
     description: "A game for improving basic math and memory skills",
     runApp: "https://ericjbergan.github.io/crystal-collector.github.io/",
     seeCode: "https://github.com/ericjbergan/crystal-collector.github.io"
@@ -54,11 +54,11 @@ class App extends Component {
             :
             <div>
               <img src="./profile-pic.jpg" alt="pic" className="profile"></img>
-              <h5>After some time in the medical and donation industries, I decided to take on a new challenge. Coding is something that has always been an interest for me so it was logical that my next step should be web development.</h5>
+              <p>After some time in the medical and donation industries, I decided to take on a new challenge. Coding is something that has always been an interest for me so web development was a logical next step.</p>
 
-              <h5>I am one month out from completing certification from the University of MN Coding Bootcamp where I have learned React.js, MongoDB, MySQL, and many other programming languages and applications.</h5>
+              <p>I am one month out from completing certification from the University of MN Coding Bootcamp where I have learned React.js, MongoDB, MySQL, and many other programming languages and applications.</p>
 
-              <h5>I am friendly, open, intelligent and love a good challenge. I’m excited about the prospect of going into a job where I can build web applications that fill a need. I want to continue to learn and grow my coding skills to the point where I can teach and mentor other new full stack developers through projects</h5>
+              <p>I am friendly, open, intelligent and love a good challenge. I’m excited about the prospect of going into a job where I can build web applications that fill a need. I want to continue to learn and grow my coding skills to the point where I can teach and mentor other new full stack developers through projects.</p>
             </div>
           }
         </div>

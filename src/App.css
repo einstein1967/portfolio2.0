@@ -31,11 +31,13 @@
 .profile {
   float: left;
   margin: 0 20px;
+  border-radius: 100px;
 }
 
-h5 {
+p {
   text-align: left;
   margin-left: 30px;
+  font-size: 18px;
 }
 
 h1 {
