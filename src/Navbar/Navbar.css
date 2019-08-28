@@ -5,6 +5,20 @@
     margin-left: 20px;
 }
 
+.logo {
+    height: 80px;
+}
+
+h3 {
+    position: absolute;
+    top: 15px;
+}
+
+h2 {
+    position: absolute;
+    bottom: 15px;
+}
+
 .navName {
     font-weight: bold;
     font-size: 30px;
@@ -17,8 +31,7 @@
 .links {
     cursor: pointer;
     position: absolute;
-    bottom: 8.5px;
+    bottom: 15px;
     right: 50px;
-    margin-left: 10px;
 }
 

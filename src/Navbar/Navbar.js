@@ -1,11 +1,13 @@
 import React from 'react';
 import './Navbar.css';
 
-const navbar = () => {
+const navbar = (props) => {
+const { onClick } = props;
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <img src={'./images/logo.jpg'} alt="logo"></img>
+        <img src={'/images/logo.jpg'} alt="logo" className="logo"></img>
         <div>
           <h3 className="navName">Eric Bergan</h3>
           <h2 className="navTitle">Full Stack Developer</h2>
@@ -13,7 +15,7 @@ const navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav links">
           <li className="nav-item">
-            <a className="nav-link" onClick={() => this.aboutMe()}>About Me</a>
+            <a className="nav-link" onClick={() => onClick()}>About Me</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="https://github.com/einstein1967">Github</a>

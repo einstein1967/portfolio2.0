@@ -1,8 +1,15 @@
 .projectImg {
     width: 60%;
     float: left;
-    border: 1px grey solid;
     height: 300px;
+    margin-bottom: 20px;
+    border-right: 1px grey solid;
+}
+
+.projectCard {
+    border: 5px blue solid;
+    height: 310px;
+    width: 106%;
 }
 
 .projectDesc {
@@ -16,7 +23,7 @@ button {
     background: lightblue;
     font-size: 13px;
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
 }
 
 .runApp {

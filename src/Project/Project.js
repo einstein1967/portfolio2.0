@@ -2,13 +2,12 @@ import React from 'react';
 import './Project.css';
 
 const Projects = (props) => {
-    console.log(props);
     return (
         <div className="projectCard">
             <img src={props.imageURL} alt="" className="projectImg"></img>
             <p class="projectDesc">{props.description}</p>
-                <button type="button" link to={props.runApp}>Run App</button>
-                <button type="button" className="runApp" href={props.seeCode}>See Code</button>
+            <a href={props.runApp} target="_blank"><button type="button">Run App</button></a>
+            <a href={props.seeCode} target="_blank"><button type="button" className="runApp">See Code</button></a>
         </div>
     )
 }
