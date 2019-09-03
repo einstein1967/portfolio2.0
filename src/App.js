@@ -30,15 +30,20 @@ const projects = [
 class App extends Component {
   state = {
     isAboutMe: true
-  }
+  };
 
   switchAboutMe = () => {
     //update state
-    console.log('I was clicked');
-    this.setState({
-      isAboutMe: false
-    })
-  }
+    if (this.state.isAboutMe) {
+      this.setState({
+        isAboutMe: false
+      })
+    }else{
+      this.setState({
+        isAboutMe: true
+      });
+    };
+  };
 
   render() {
     return (
@@ -54,11 +59,11 @@ class App extends Component {
             :
             <div>
               <img src="./profile-pic.jpg" alt="pic" className="profile"></img>
-              <p>After some time in the medical and donation industries, I decided to take on a new challenge. Coding is something that has always been an interest for me so web development was a logical next step.</p>
+              <p className="bio">After some time in the medical and donation industries, I decided to take on a new challenge. Coding is something that has always been an interest for me so web development was a logical next step.</p>
 
-              <p>I am one month out from completing certification from the University of MN Coding Bootcamp where I have learned React.js, MongoDB, MySQL, and many other programming languages and applications.</p>
+              <p className="bio">I am one month out from completing certification from the University of MN Coding Bootcamp where I have learned React.js, MongoDB, MySQL, and many other programming languages and applications.</p>
 
-              <p>I am friendly, open, intelligent and love a good challenge. I’m excited about the prospect of going into a job where I can build web applications that fill a need. I want to continue to learn and grow my coding skills to the point where I can teach and mentor other new full stack developers through projects.</p>
+              <p className="bio">I am friendly, open, intelligent and love a good challenge. I’m excited about the prospect of going into a job where I can build web applications that fill a need. I want to continue to learn and grow my coding skills to the point where I can teach and mentor other new full stack developers through projects.</p>
             </div>
           }
         </div>
