@@ -58,7 +58,7 @@ class App extends Component {
             </div>
             :
             <div>
-              <img src="./profile-pic.jpg" alt="pic" className="profile"></img>
+              <img src="./profile-pic.jpg" alt="profile" className="profile"></img>
               <p className="bio">After some time in the medical and donation industries, I decided to take on a new challenge. Coding is something that has always been an interest for me so web development was a logical next step.</p>
 
               <p className="bio">I am one month out from completing certification from the University of MN Coding Bootcamp where I have learned React.js, MongoDB, MySQL, and many other programming languages and applications.</p>
