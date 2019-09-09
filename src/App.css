@@ -11,8 +11,7 @@
   float: left;
   margin: 0 20px;
   height: 250px;
-  border-radius: 100px;
-}
+  -webkit-clip-path: circle(50% at 48% 46%);}
 
 .bio {
   text-align: left;

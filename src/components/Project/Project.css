@@ -6,14 +6,15 @@
     border-right: 1px grey solid;
 }
 
-.projectCard {
+.project-card {
     border: 5px darkblue solid;
     height: 310px;
     width: 106%;
     border-radius: 10px;
+    position: relative;
 }
 
-.projectDesc {
+.project-desc {
     width: 40%;
     float: right;
     height: 300px;
@@ -21,13 +22,22 @@
 }
 
 button {
-    float: right;
     border-radius: 20px;
     background: darkblue;
     color: white;
     font-size: 13px;
+    color: white;
+}
+
+.link-wrapper {
     position: absolute;
-    bottom: 20px;
+    top: 0;
+    left: 0;
+    width: 60%;
+}
+
+.img-div {
+    position: relative;
 }
 
 .runApp {

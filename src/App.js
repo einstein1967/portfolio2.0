@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navbar from './Navbar/Navbar';
-import Project from './Project/Project'
+import Navbar from './components/Navbar/Navbar';
+import Project from './components/Project/Project'
 
 const projects = [
   {
@@ -34,15 +34,9 @@ class App extends Component {
 
   switchAboutMe = () => {
     //update state
-    if (this.state.isAboutMe) {
-      this.setState({
-        isAboutMe: false
-      })
-    }else{
-      this.setState({
-        isAboutMe: true
-      });
-    };
+    this.setState({
+      isAboutMe: false
+    });
   };
 
   render() {
