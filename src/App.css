@@ -7,16 +7,18 @@
   height: 200px;
 }
 
-.profile {
+.profile-image {
   float: left;
   margin: 0 20px;
-  height: 250px;
-  -webkit-clip-path: circle(50% at 48% 46%);}
+  width: 20%;
+  border-radius: 100px;
+}
 
 .bio {
   text-align: left;
   margin-left: 30px;
   font-size: 18px;
+  width: 100%;
 }
 
 h1 {
