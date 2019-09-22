@@ -5,21 +5,21 @@ const projects = [
     {
         name: "Burger",
         imageURL: "./eatdaburger.jpg",
-        description: "Full stack app that adds the user's input (ideally a sandwich) to a MySQL database, allows the user to 'devour' the sandwich, and then delete it",
+        description: "A small, no-frills full stack app for adding data to a MySQL db and retrieving and deleting it. It would be a good to-do list with a few changes.",
         runApp: "https://ericjbergan.github.io/burger.github.io/",
         seeCode: "https://github.com/ericjbergan/burger.github.io"
     },
     {
-        name: "Nesterly",
-        imageURL: "./nesterlyimage.jpg",
-        description: "Full stack app that allows you to keep track of your household goods; functions but is still a work in progress",
-        runApp: "https://bootcamp-proj2.herokuapp.com/",
-        seeCode: "https://github.com/ericjbergan/bootcamp-project2.github.io"
+        name: "Clicky Game",
+        imageURL: "./ClickyGame.JPG",
+        description: "Simple React app that tests your memory and observation skills. This was my first React app other than this profile.",
+        runApp: "https://immense-escarpment-45804.herokuapp.com/",
+        seeCode: "https://github.com/ericjbergan/clickygame.github.io"
     },
     {
         name: "Gem Collector",
         imageURL: "./gemcollector.jpg",
-        description: "A game for improving basic math and memory skills",
+        description: "A game for improving basic math and memory skills. It uses lots of RNG for such a small app.",
         runApp: "https://ericjbergan.github.io/crystal-collector.github.io/",
         seeCode: "https://github.com/ericjbergan/crystal-collector.github.io"
     }
