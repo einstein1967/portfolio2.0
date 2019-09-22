@@ -14,13 +14,13 @@ const navbar = (props) => {
         <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav links">
           <li className="nav-item">
-            <a className="nav-link" onClick={props.click}>About Me</a>
+            <p className="nav-link" onClick={props.click}>About Me</p>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="https://github.com/ericjbergan">Github</a>
+            <a className="nav-link" href="https://github.com/ericjbergan" target="_blank" rel="noopener noreferrer">Github</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="https://www.linkedin.com/in/eric-bergan/">LinkedIn</a>
+            <a className="nav-link" href="https://www.linkedin.com/in/eric-bergan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href = "mailto: ericjbergan@gmail.com">Contact</a>
