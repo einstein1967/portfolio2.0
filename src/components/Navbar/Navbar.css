@@ -1,41 +1,36 @@
-.navName,
-.navTitle {
-    color: #262b7d;
-    text-align: left;
-    margin-left: 20px;
-}
-
-.logo {
+.nav-container {
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
     height: 80px;
 }
 
-
-
-h3 {
-    position: absolute;
-    top: 15px;
+.logo,
+.badge {
+    height: 100%;
 }
 
-h2 {
-    position: absolute;
-    bottom: 15px;
+.nav-name,
+.nav-title {
+    color: #262b7d;
+    text-align: left;
+    margin-right: auto;
+    margin-left: 20px;
 }
 
-.navName {
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.navTitle {
-    font-size: 20px;
-}
-
-.links {
-    cursor: pointer;
-    position: absolute;
-    bottom: 15px;
-    right: 50px;
-    font-size: 20px;
+.nav-name {
     font-weight: bold;
 }
 
+.about {
+    margin-left: auto;
+}
+
+.about:hover {
+    cursor: pointer
+}
+
+.nav-item {
+    color: #527bff;
+    padding-top: 18px;
+}

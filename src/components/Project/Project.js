@@ -28,7 +28,6 @@ const projects = [
 
 const Projects = () => {
 
-   
    return projects.map(card => {
         return (
             <div className="project-card">
